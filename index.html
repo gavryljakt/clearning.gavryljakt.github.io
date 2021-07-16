@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <header id="home" class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="header-top__inner">
+                    <div class="contact__list">
+                        <div class="contact__item-box">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="11" height="15" viewBox="0 0 11 15">
+                                <path
+                                    d="M255.74,23.733a4.447,4.447,0,0,0-.258-0.6A5.4,5.4,0,0,0,250.426,20,5.269,5.269,0,0,0,245,24.653v0.64c0,0.027.01,0.266,0.024,0.387,0.2,1.493,1.453,3.08,2.39,4.573,1.007,1.6,2.053,3.173,3.089,4.746,0.639-1.026,1.275-2.067,1.9-3.066,0.17-.293.367-0.587,0.538-0.867,0.113-.186.33-0.373,0.429-0.546,1.008-1.733,2.63-3.48,2.63-5.2V24.613A5.051,5.051,0,0,0,255.74,23.733Zm-5.27,3.213a1.952,1.952,0,0,1-1.869-1.253,1.649,1.649,0,0,1-.053-0.467V24.813a1.81,1.81,0,0,1,1.983-1.706,1.95,1.95,0,0,1,2.014,1.92A2,2,0,0,1,250.47,26.947Z"
+                                    transform="translate(-245 -20)" />
+                            </svg>
+                            <div class="contact__item">
+                                333 Road Broken Street,88 New York
+                            </div>
+                        </div>
+                        <a class="contact__item-box" href="tel:17854524521">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15">
+                                <path
+                                    d="M587.4,28.922a1.052,1.052,0,0,0-1.589,0c-0.371.368-.742,0.737-1.108,1.111a0.219,0.219,0,0,1-.306.056c-0.24-.131-0.5-0.237-0.727-0.381a11.521,11.521,0,0,1-2.778-2.528,6.618,6.618,0,0,1-1-1.595,0.229,0.229,0,0,1,.057-0.294c0.371-.359.733-0.727,1.1-1.1a1.055,1.055,0,0,0,0-1.626c-0.29-.293-0.58-0.58-0.871-0.874s-0.6-.6-0.9-0.9a1.057,1.057,0,0,0-1.588,0c-0.375.368-.734,0.746-1.115,1.108a1.814,1.814,0,0,0-.568,1.22,5.167,5.167,0,0,0,.4,2.226,13.527,13.527,0,0,0,2.4,4A14.856,14.856,0,0,0,583.73,33.2a7.135,7.135,0,0,0,2.725.793,2,2,0,0,0,1.714-.653c0.318-.356.677-0.68,1.014-1.021a1.061,1.061,0,0,0,.007-1.616Q588.3,29.81,587.4,28.922Zm-0.6-2.488,1.152-.2A5.171,5.171,0,0,0,583.587,22l-0.163,1.158A3.995,3.995,0,0,1,586.808,26.435Zm1.8-5.007A8.494,8.494,0,0,0,583.74,19l-0.163,1.158a7.409,7.409,0,0,1,6.271,6.077l1.152-.2A8.558,8.558,0,0,0,588.609,21.428Z"
+                                    transform="translate(-576 -19)" />
+                            </svg>
+                            <div class="contact__item">
+                                1-785-452-4521
+                            </div>
+                        </a>
+                        <div class="contact__item-box">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14.876" height="14.875"
+                                viewBox="0 0 14.876 14.875">
+                                <path
+                                    d="M761,18.128a7.436,7.436,0,1,0,7.436,7.436A7.436,7.436,0,0,0,761,18.128Zm3.215,8.85h-3.152c-0.011,0-.021,0-0.031,0s-0.021,0-.032,0a0.514,0.514,0,0,1-.514-0.514v-5.25a0.515,0.515,0,0,1,1.029,0V25.95h2.7A0.514,0.514,0,0,1,764.219,26.978Z"
+                                    transform="translate(-753.562 -18.125)" />
+                            </svg>
+                            <div class="contact__item">
+                                Mon - Sat 8.00am - 6.00pm
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="social__list header-social__list">
+                        <li class="social__item">
+                            <a class="social__link" href="#">
+                                <svg class="social__icon" width="16" height="14" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 512 512">
+                                    <path
+                                        d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a class="social__link" href="#">
+                                <svg class="social__icon" width="9" height="18" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 320 512">
+                                    <path
+                                        d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a class="social__link" href="#">
+                                <svg class="social__icon" width="18" height="14" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 576 512">
+                                    <path
+                                        d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a class="social__link" href="#">
+                                <svg class="social__icon" width="20" height="14" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 640 512">
+                                    <path
+                                        d="M386.061 228.496c1.834 9.692 3.143 19.384 3.143 31.956C389.204 370.205 315.599 448 204.8 448c-106.084 0-192-85.915-192-192s85.916-192 192-192c51.864 0 95.083 18.859 128.611 50.292l-52.126 50.03c-14.145-13.621-39.028-29.599-76.485-29.599-65.484 0-118.92 54.221-118.92 121.277 0 67.056 53.436 121.277 118.92 121.277 75.961 0 104.513-54.745 108.965-82.773H204.8v-66.009h181.261zm185.406 6.437V179.2h-56.001v55.733h-55.733v56.001h55.733v55.733h56.001v-55.733H627.2v-56.001h-55.733z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="header-bot">
+            <div class="container">
+                <div class="header-bot__inner">
+                    <a class="logo" href="#">
+                        <img src="images/logo.png" alt="logo">
+                    </a>
+                    <button class="menu__btn ">
+                        <div class="menu__btn-line"></div>
+                        <div class="menu__btn-line"></div>
+                        <div class="menu__btn-line"></div>
+                    </button>
+                    <nav class="menu">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a class="menu__link" href="#">Home</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link anchor-about-us" href="#about-us">About Us</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link anchor-services" href="#services">Services</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link anchor-project" href="#projects">Projects</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link anchor-blog" href="#blog">Blog</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link anchor-contact" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <a class="header-bot__btn btn" href="#">Request a Quote</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="top-slider page-section">
+        <div class="top-slider__item" style="background-image: url('images/content/slider-1.jpg');">
+            <div class="top-slider__item-wrapper">
+                <h5 class="top-slider__suptitle">
+                    We clean a Whole lot more!
+                </h5>
+                <h1 class="top-slider__title">
+                    Cleaning Yours House
+                    Make World & Clean Mine
+                </h1>
+                <a class="btn top-slider__btn" href="#">Book Today</a>
+            </div>
+        </div>
+        <div class="top-slider__item" style="background-image: url('images/content/slider-1.jpg');">
+            <div class="top-slider__item-wrapper">
+                <h5 class="top-slider__suptitle">
+                    We clean a Whole lot more!
+                </h5>
+                <h1 class="top-slider__title">
+                    Cleaning Yours House
+                    Make World & Clean Mine
+                </h1>
+                <a class="btn top-slider__btn" href="#">Book Today</a>
+            </div>
+        </div>
+        <div class="top-slider__item" style="background-image: url('images/content/slider-1.jpg');">
+            <div class="top-slider__item-wrapper">
+                <h5 class="top-slider__suptitle">
+                    We clean a Whole lot more!
+                </h5>
+                <h1 class="top-slider__title">
+                    Cleaning Yours House
+                    Make World & Clean Mine
+                </h1>
+                <a class="btn top-slider__btn" href="#">Book Today</a>
+            </div>
+        </div>
+    </section>
+    <section id="about-us" class="about page-section">
+        <div class="container">
+            <div class="about__inner">
+                <div class="about__content">
+                    <div class="about__box">
+                        <h6 class="about__suptitle suptitle-line">The best House cleaning Company</h6>
+                        <h2 class="about__title title">About Our Moura's
+                            Company</h2>
+                        <p class="about__text">We Specialize in window cleaning,window tinting
+                            pressure washing gutter cleaning and more. We are
+                            dedicated to improving the look and value of homes
+                            and samll business in their communites.</p>
+                    </div>
+                    <div class="about__btn-box">
+                        <a class="about__btn btn" href="tel:17854524521">
+                            <svg class="about__tel-icon" xmlns="http://www.w3.org/2000/svg" width="59" height="59"
+                                viewBox="0 0 15 15">
+                                <path
+                                    d="M587.4,28.922a1.052,1.052,0,0,0-1.589,0c-0.371.368-.742,0.737-1.108,1.111a0.219,0.219,0,0,1-.306.056c-0.24-.131-0.5-0.237-0.727-0.381a11.521,11.521,0,0,1-2.778-2.528,6.618,6.618,0,0,1-1-1.595,0.229,0.229,0,0,1,.057-0.294c0.371-.359.733-0.727,1.1-1.1a1.055,1.055,0,0,0,0-1.626c-0.29-.293-0.58-0.58-0.871-0.874s-0.6-.6-0.9-0.9a1.057,1.057,0,0,0-1.588,0c-0.375.368-.734,0.746-1.115,1.108a1.814,1.814,0,0,0-.568,1.22,5.167,5.167,0,0,0,.4,2.226,13.527,13.527,0,0,0,2.4,4A14.856,14.856,0,0,0,583.73,33.2a7.135,7.135,0,0,0,2.725.793,2,2,0,0,0,1.714-.653c0.318-.356.677-0.68,1.014-1.021a1.061,1.061,0,0,0,.007-1.616Q588.3,29.81,587.4,28.922Zm-0.6-2.488,1.152-.2A5.171,5.171,0,0,0,583.587,22l-0.163,1.158A3.995,3.995,0,0,1,586.808,26.435Zm1.8-5.007A8.494,8.494,0,0,0,583.74,19l-0.163,1.158a7.409,7.409,0,0,1,6.271,6.077l1.152-.2A8.558,8.558,0,0,0,588.609,21.428Z"
+                                    transform="translate(-576 -19)" />
+                            </svg>
+                            <span>Call Us Today</span>
+                            1-785-452-4521
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="services" class="services">
+        <div class="container">
+            <h6 class="services__suptitle">
+                What we are offering
+            </h6>
+            <h3 class="title services__title">
+                Our Services
+            </h3>
+            <div class="services__slider">
+                <div class="services__slider-item">
+                    <img class="services__slider-img" src="images/content/service-slider-3.jpg" alt="images">
+                    <div class="services__slider-content">
+                        <svg class="services__content-logo" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 59.859 59.859" xml:space="preserve">
+                            <g>
+                                <path
+                                    d="M50.097,26.697c0.412,0,0.802-0.079,1.177-0.192l-2.821,17.957c-0.103-0.003-0.208,0.001-0.318,0.019
+                                                        		c-7.054,1.102-12.621-2.535-15.965-8.299c1.012-1.847,0.144-4.764-2.609-4.764c-3.969,0-4.017,6.059-0.158,6.227
+                                                        		c3.871,6.86,10.542,10.825,18.557,9.963l-1.925,12.252H13.841L8.988,26.536c0.345,0.094,0.701,0.16,1.075,0.16v0.001H50.097z
+                                                        		 M50.098,20.453H10.063c-1.17,0-2.122,0.951-2.122,2.121c0,0.62,0.272,1.174,0.698,1.562c0.377,0.344,0.874,0.56,1.424,0.56h40.035
+                                                        		c0.55,0,1.048-0.216,1.425-0.561c0.425-0.388,0.696-0.941,0.696-1.561C52.22,21.404,51.268,20.453,50.098,20.453z M11.789,15.674
+                                                        		c-3.712-5.532,4.925-7.697,6.902-1.919c0.475,1.389,2.627,1.586,3.01,0c2.755-11.427,18.036-9.028,17.744,2.576
+                                                        		c-0.032,1.283,1.326,1.81,2.348,1.348c2.865-2.917,5.611-1.354,6.396,0.774c0.033,0.089,0.068,0.176,0.093,0.267
+                                                        		c0.623,0.453,1.099,0.247,1.41-0.267c0.506-0.832,0.585-2.475,0.165-3.469c-1.253-2.968-4.782-2.473-7.396-1.825
+                                                        		C41.066,1.025,25.119-0.736,19.851,9.752C14.649,4.147,3.708,9.221,9.093,17.249C10.209,18.911,12.914,17.35,11.789,15.674z
+                                                        		 M40.794,5.825c0-2.737,2.228-4.963,4.964-4.963s4.963,2.226,4.963,4.963c0,2.737-2.227,4.963-4.963,4.963
+                                                        		C43.021,10.788,40.794,8.562,40.794,5.825z M42.794,5.825c0,1.636,1.327,2.963,2.964,2.963c1.636,0,2.963-1.327,2.963-2.963
+                                                        		c0-1.636-1.326-2.963-2.963-2.963S42.794,4.189,42.794,5.825z M14.961,3.57c0-1.968,1.602-3.57,3.57-3.57
+                                                        		c1.968,0,3.57,1.602,3.57,3.57c0,1.968-1.601,3.57-3.57,3.57C16.563,7.14,14.961,5.538,14.961,3.57z M16.961,3.57
+                                                        		c0,0.867,0.703,1.57,1.57,1.57c0.867,0,1.57-0.703,1.57-1.57c0-0.867-0.703-1.57-1.57-1.57C17.664,2,16.961,2.703,16.961,3.57z" />
+                            </g>
+                        </svg>
+                        <h5 class="services__content-title">
+                            House Cleaning
+                        </h5>
+                        <p class="services__content-text">
+                            A wonderful serenity has taken of my
+                            entire soul, like these sweet spring his
+                            which enjoy with my whole heart,like a
+                            these sweet spring.
+                        </p>
+                    </div>
+                </div>
+                <div class="services__slider-item">
+                    <img class="services__slider-img" src="images/content/service-slider-2.jpg" alt="images">
+                    <div class="services__slider-content">
+                        <svg class="services__content-logo" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 364.203 364.204"
+                            xml:space="preserve">
+                            <g>
+                                <g>
+                                    <path
+                                        d="M344.105,69.707V15.535h-46.111c1.165,6.362,3.375,14.727,7.608,23.089C313.877,54.999,326.781,65.372,344.105,69.707z" />
+                                    <path
+                                        d="M344.105,86.793c-16.7,4.23-29.357,14.063-37.675,29.514c-1.447,2.693-2.66,5.387-3.705,8.038v49.954h-71.055
+                                            			c-6.852,10.452-8.778,22.041-9.295,27.673h80.338v113.756H188.962V201.971h20.84c-0.294-5.248-1.753-17.113-8.395-27.673h-12.445
+                                            			v-12.715c-7.98-5.161-18.113-7.791-30.276-7.81c-1.348,0-2.534-0.522-3.543-1.261v21.785H41.388V60.543h113.755v82.212
+                                            			c0.967-0.708,2.083-1.231,3.369-1.273c1.162-0.036,16.75-0.745,30.45-9.628V60.543h66.146
+                                            			c13.307-8.061,25.653-21.755,28.619-45.009H0v344.099h344.099V86.793H344.105z M155.143,315.727H41.388V201.971h113.755V315.727z" />
+                                    <path
+                                        d="M158.698,147.631c12.757,0.018,22.554,2.774,30.264,6.947c9.364,5.062,15.562,12.262,19.555,19.726
+                                            			c5.921,11.07,7.194,22.449,7.44,27.667c0.065,1.424,0.071,2.475,0.065,2.835c0.013-0.36,0.066-1.411,0.198-2.835
+                                            			c0.469-5.218,2.21-16.597,8.371-27.667c7.572-13.613,21.81-26.625,48.759-26.667c-0.048,0-0.084,0-0.132,0
+                                            			c-56.439,0-57.196-57.328-57.196-57.328c0,26.83-13.276,41.04-27.061,48.639C174.112,147.133,158.698,147.631,158.698,147.631z" />
+                                    <path
+                                        d="M344.105,76.057c-38.455-8.812-49.306-42.766-52.344-60.522c-1.129-6.593-1.201-10.965-1.201-10.965
+                                            			c0,3.867-0.253,7.491-0.661,10.965c-2.521,21.575-12.411,35.731-24.163,45.009c-21.377,16.886-48.819,17.672-48.819,17.672
+                                            			c73.842,0.111,73.728,69.217,73.649,73.442c0.066-2.231,0.961-22.548,12.147-41.247c7.771-12.974,20.524-25.136,41.392-29.97
+                                            			c6.01-1.396,12.664-2.213,20.098-2.225c-0.048,0-0.108,0-0.168,0C356.667,78.216,350.067,77.423,344.105,76.057z" />
+                                </g>
+                            </g>
+                        </svg>
+                        <h5 class="services__content-title">
+                            Window Cleaning
+                        </h5>
+                        <p class="services__content-text">
+                            A wonderful serenity has taken of my
+                            entire soul, like these sweet spring his
+                            which enjoy with my whole heart,like a
+                            these sweet spring.
+                        </p>
+                    </div>
+                </div>
+                <div class="services__slider-item">
+                    <img class="services__slider-img" src="images/content/service-slider-1.jpg" alt="images">
+                    <div class="services__slider-content">
+                        <svg class="services__content-logo" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 285.971 285.971"
+                            xml:space="preserve">
+                            <g>
+                                <g>
+                                    <path d="M44.142,24.938c9.279,19.309,9.176,42.223-0.321,68.108c-28.871,78.752,1.61,124.571,1.92,125.022
+                                                    			c17.334,26.978,39.466,40.624,65.829,40.624c19.874,0,41.881-7.664,65.405-22.773l2.807-1.795
+                                                    			c-37.181-34.794-78.393-72.481-84.403-122.798c-0.838-7.006,4.998-10.595,10.459-10.138c-3.796,2.23-6.505,6.695-4.835,11.999
+                                                    			c15.246,48.489,47.771,84.599,84.186,117.484c0.696,0.631,1.403,1.256,2.099,1.882c0.702,0.626,1.398,1.262,2.099,1.887
+                                                    			c9.763,8.692,19.749,17.187,29.741,25.64c9.274,7.843,18.536,15.659,27.592,23.584c9.339,8.175,20.712-7.375,11.417-15.507
+                                                    			c-17.106-14.968-35-29.491-52.21-44.595c-0.702-0.615-1.387-1.246-2.089-1.866c-0.702-0.62-1.392-1.246-2.094-1.871
+                                                    			c19.091-13.07,34.756-26.853,38.655-45.471c3.361-16.056-2.252-34.669-17.149-56.893C188.973,66.319,77.369,19.825,24.376,0
+                                                    			C31.686,6.081,39.002,14.245,44.142,24.938z" />
+                                </g>
+                        </svg>
+                        <h5 class="services__content-title">
+                            Garden Cleaning
+                        </h5>
+                        <p class="services__content-text">
+                            A wonderful serenity has taken of my
+                            entire soul, like these sweet spring his
+                            which enjoy with my whole heart,like a
+                            these sweet spring.
+                        </p>
+                    </div>
+                </div>
+                <div class="services__slider-item">
+                    <img class="services__slider-img" src="images/content/service-slider-3.jpg" alt="images">
+                    <div class="services__slider-content">
+                        <svg class="services__content-logo" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 59.859 59.859" xml:space="preserve">
+                            <g>
+                                <path
+                                    d="M50.097,26.697c0.412,0,0.802-0.079,1.177-0.192l-2.821,17.957c-0.103-0.003-0.208,0.001-0.318,0.019
+                        		c-7.054,1.102-12.621-2.535-15.965-8.299c1.012-1.847,0.144-4.764-2.609-4.764c-3.969,0-4.017,6.059-0.158,6.227
+                        		c3.871,6.86,10.542,10.825,18.557,9.963l-1.925,12.252H13.841L8.988,26.536c0.345,0.094,0.701,0.16,1.075,0.16v0.001H50.097z
+                        		 M50.098,20.453H10.063c-1.17,0-2.122,0.951-2.122,2.121c0,0.62,0.272,1.174,0.698,1.562c0.377,0.344,0.874,0.56,1.424,0.56h40.035
+                        		c0.55,0,1.048-0.216,1.425-0.561c0.425-0.388,0.696-0.941,0.696-1.561C52.22,21.404,51.268,20.453,50.098,20.453z M11.789,15.674
+                        		c-3.712-5.532,4.925-7.697,6.902-1.919c0.475,1.389,2.627,1.586,3.01,0c2.755-11.427,18.036-9.028,17.744,2.576
+                        		c-0.032,1.283,1.326,1.81,2.348,1.348c2.865-2.917,5.611-1.354,6.396,0.774c0.033,0.089,0.068,0.176,0.093,0.267
+                        		c0.623,0.453,1.099,0.247,1.41-0.267c0.506-0.832,0.585-2.475,0.165-3.469c-1.253-2.968-4.782-2.473-7.396-1.825
+                        		C41.066,1.025,25.119-0.736,19.851,9.752C14.649,4.147,3.708,9.221,9.093,17.249C10.209,18.911,12.914,17.35,11.789,15.674z
+                        		 M40.794,5.825c0-2.737,2.228-4.963,4.964-4.963s4.963,2.226,4.963,4.963c0,2.737-2.227,4.963-4.963,4.963
+                        		C43.021,10.788,40.794,8.562,40.794,5.825z M42.794,5.825c0,1.636,1.327,2.963,2.964,2.963c1.636,0,2.963-1.327,2.963-2.963
+                        		c0-1.636-1.326-2.963-2.963-2.963S42.794,4.189,42.794,5.825z M14.961,3.57c0-1.968,1.602-3.57,3.57-3.57
+                        		c1.968,0,3.57,1.602,3.57,3.57c0,1.968-1.601,3.57-3.57,3.57C16.563,7.14,14.961,5.538,14.961,3.57z M16.961,3.57
+                        		c0,0.867,0.703,1.57,1.57,1.57c0.867,0,1.57-0.703,1.57-1.57c0-0.867-0.703-1.57-1.57-1.57C17.664,2,16.961,2.703,16.961,3.57z" />
+                            </g>
+                        </svg>
+                        <h5 class="services__content-title">
+                            House Cleaning
+                        </h5>
+                        <p class="services__content-text">
+                            A wonderful serenity has taken of my
+                            entire soul, like these sweet spring his
+                            which enjoy with my whole heart,like a
+                            these sweet spring.
+                        </p>
+                    </div>
+                </div>
+                <div class="services__slider-item">
+                    <img class="services__slider-img" src="images/content/service-slider-2.jpg" alt="images">
+                    <div class="services__slider-content">
+                        <svg class="services__content-logo" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 364.203 364.204"
+                            xml:space="preserve">
+                            <g>
+                                <g>
+                                    <path
+                                        d="M344.105,69.707V15.535h-46.111c1.165,6.362,3.375,14.727,7.608,23.089C313.877,54.999,326.781,65.372,344.105,69.707z" />
+                                    <path
+                                        d="M344.105,86.793c-16.7,4.23-29.357,14.063-37.675,29.514c-1.447,2.693-2.66,5.387-3.705,8.038v49.954h-71.055
+            			c-6.852,10.452-8.778,22.041-9.295,27.673h80.338v113.756H188.962V201.971h20.84c-0.294-5.248-1.753-17.113-8.395-27.673h-12.445
+            			v-12.715c-7.98-5.161-18.113-7.791-30.276-7.81c-1.348,0-2.534-0.522-3.543-1.261v21.785H41.388V60.543h113.755v82.212
+            			c0.967-0.708,2.083-1.231,3.369-1.273c1.162-0.036,16.75-0.745,30.45-9.628V60.543h66.146
+            			c13.307-8.061,25.653-21.755,28.619-45.009H0v344.099h344.099V86.793H344.105z M155.143,315.727H41.388V201.971h113.755V315.727z" />
+                                    <path
+                                        d="M158.698,147.631c12.757,0.018,22.554,2.774,30.264,6.947c9.364,5.062,15.562,12.262,19.555,19.726
+            			c5.921,11.07,7.194,22.449,7.44,27.667c0.065,1.424,0.071,2.475,0.065,2.835c0.013-0.36,0.066-1.411,0.198-2.835
+            			c0.469-5.218,2.21-16.597,8.371-27.667c7.572-13.613,21.81-26.625,48.759-26.667c-0.048,0-0.084,0-0.132,0
+            			c-56.439,0-57.196-57.328-57.196-57.328c0,26.83-13.276,41.04-27.061,48.639C174.112,147.133,158.698,147.631,158.698,147.631z" />
+                                    <path
+                                        d="M344.105,76.057c-38.455-8.812-49.306-42.766-52.344-60.522c-1.129-6.593-1.201-10.965-1.201-10.965
+            			c0,3.867-0.253,7.491-0.661,10.965c-2.521,21.575-12.411,35.731-24.163,45.009c-21.377,16.886-48.819,17.672-48.819,17.672
+            			c73.842,0.111,73.728,69.217,73.649,73.442c0.066-2.231,0.961-22.548,12.147-41.247c7.771-12.974,20.524-25.136,41.392-29.97
+            			c6.01-1.396,12.664-2.213,20.098-2.225c-0.048,0-0.108,0-0.168,0C356.667,78.216,350.067,77.423,344.105,76.057z" />
+                                </g>
+                            </g>
+                        </svg>
+                        <h5 class="services__content-title">
+                            Window Cleaning
+                        </h5>
+                        <p class="services__content-text">
+                            A wonderful serenity has taken of my
+                            entire soul, like these sweet spring his
+                            which enjoy with my whole heart,like a
+                            these sweet spring.
+                        </p>
+                    </div>
+                </div>
+                <div class="services__slider-item">
+                    <img class="services__slider-img" src="images/content/service-slider-1.jpg" alt="images">
+                    <div class="services__slider-content">
+                        <svg class="services__content-logo" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 285.971 285.971"
+                            xml:space="preserve">
+                            <g>
+                                <g>
+                                    <path d="M44.142,24.938c9.279,19.309,9.176,42.223-0.321,68.108c-28.871,78.752,1.61,124.571,1.92,125.022
+                    			c17.334,26.978,39.466,40.624,65.829,40.624c19.874,0,41.881-7.664,65.405-22.773l2.807-1.795
+                    			c-37.181-34.794-78.393-72.481-84.403-122.798c-0.838-7.006,4.998-10.595,10.459-10.138c-3.796,2.23-6.505,6.695-4.835,11.999
+                    			c15.246,48.489,47.771,84.599,84.186,117.484c0.696,0.631,1.403,1.256,2.099,1.882c0.702,0.626,1.398,1.262,2.099,1.887
+                    			c9.763,8.692,19.749,17.187,29.741,25.64c9.274,7.843,18.536,15.659,27.592,23.584c9.339,8.175,20.712-7.375,11.417-15.507
+                    			c-17.106-14.968-35-29.491-52.21-44.595c-0.702-0.615-1.387-1.246-2.089-1.866c-0.702-0.62-1.392-1.246-2.094-1.871
+                    			c19.091-13.07,34.756-26.853,38.655-45.471c3.361-16.056-2.252-34.669-17.149-56.893C188.973,66.319,77.369,19.825,24.376,0
+                    			C31.686,6.081,39.002,14.245,44.142,24.938z" />
+                                </g>
+                        </svg>
+
+                        <h5 class="services__content-title">
+                            Garden Cleaning
+                        </h5>
+                        <p class="services__content-text">
+                            A wonderful serenity has taken of my
+                            entire soul, like these sweet spring his
+                            which enjoy with my whole heart,like a
+                            these sweet spring.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="benefits page-section">
+        <div class="container">
+            <ul class="benefits-list">
+                <li class="benefits-list__item">
+                    <img class="benefits-list__item-img" src="images/benefits-logo-1.png" alt="benefits logo">
+                    <div class="benefits-list__item-text">100% <br>Free Estimates</div>
+                </li>
+                <li class="benefits-list__item">
+                    <img class="benefits-list__item-img" src="images/benefits-logo-2.png" alt="benefits logo">
+                    <div class="benefits-list__item-text">Insured<br> & Boudede</div>
+                </li>
+                <li class="benefits-list__item">
+                    <img class="benefits-list__item-img" src="images/benefits-logo-3.png" alt="benefits logo">
+                    <div class="benefits-list__item-text">Quality Standards</div>
+                </li>
+                <li class="benefits-list__item">
+                    <img class="benefits-list__item-img" src="images/benefits-logo-4.png" alt="benefits logo">
+                    <div class="benefits-list__item-text">5 Years Exprience</div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <section class="preference page-section">
+        <div class="container">
+            <div class="preference__inner">
+                <div class="preference__content">
+                    <h6 class="suptitle-line preference__suptitle">Why Choose Us</h6>
+                    <h3 class="title preference__title">We are best House Cleaning
+                        Services Company</h3>
+                    <ul class="preference__list">
+                        <li class="preference__item">Every Employe wears a photo ID badge.</li>
+                        <li class="preference__item">Mobile are custom Wrapped for easy identification.</li>
+                        <li class="preference__item">We are a fully insured nationally ranked brand.</li>
+                        <li class="preference__item">All work is backed by our exclusive "Streak-Free Guarantee".</li>
+                        <li class="preference__item">We offer multiple services to manitain your home.</li>
+                        <li class="preference__item"> Our services anr more affordable than you think.</li>
+                    </ul>
+                    <a class="btn preference__btn" href="#">We Are Also
+                        Certified Company</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="project page-section">
+        <div class="container">
+            <h3 class="project__title title">Our Projects</h3>
+            <p class="project__text">Our company is latest at cleaning servicing company We can clean
+                your space including home.</p>
+            <div class="project__list__inner">
+                <ul class="project__list" id="buttonGroup">
+                    <li class="is-active"><a id="allproject">All Project</a></li>
+                    <li><a id="house">House</a></li>
+                    <li><a id="office">Office</a></li>
+                    <li><a id="garden">Garden</a></li>
+                    <li><a id="apartment">Apartment</a></li>
+                </ul>
+            </div>
+            <div class="grid" id="container">
+                <div class="grid-sizer"></div>
+                <div class="grid-item office">
+                    <img src="images/content/project-1.jpg" alt="images" />
+                </div>
+                <div class="grid-item officehouse">
+                    <img src="images/content/project-2.jpg" alt="images" />
+                </div>
+                <div class="grid-item house">
+                    <img src="images/content/project-3.jpg" alt="images" />
+                </div>
+                <div class="grid-item apartment">
+                    <img src="images/content/project-4.jpg" alt="images" />
+                </div>
+                <div class="grid-item apartment">
+                    <img src="images/content/project-5.jpg" alt="images" />
+                </div>
+                <div class="grid-item garden">
+                    <img src="images/content/project-6.jpg" alt="images" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="reviews page-section">
+        <div class="reviews-wrapper">
+            <div class="reviews-inner">
+                <h3 class="reviews__title">
+                    Delivering the Best Service Solution to Our Client
+                </h3>
+                <a class="btn reviews__btn" href="#">Book Today</a>
+            </div>
+        </div>
+        <div class="container">
+            <div class="reviews-slider__inner">
+                <div class="reviews-slider__photo">
+                    <div class="reviews-slider__photo-item">
+                        <img class="reviews-slider__photo-img" src="images/content/reviews-slider-photo-1.png"
+                            alt="photo author">
+                    </div>
+                    <div class="reviews-slider__photo-item">
+                        <img class="reviews-slider__photo-img" src="images/content/reviews-slider-photo-2.png"
+                            alt="photo author">
+                    </div>
+                    <div class="reviews-slider__photo-item">
+                        <img class="reviews-slider__photo-img" src="images/content/reviews-slider-photo-3.png"
+                            alt="photo author">
+                    </div>
+                    <div class="reviews-slider__photo-item">
+                        <img class="reviews-slider__photo-img" src="images/content/reviews-slider-photo-1.png"
+                            alt="photo author">
+                    </div>
+                    <div class="reviews-slider__photo-item">
+                        <img class="reviews-slider__photo-img" src="images/content/reviews-slider-photo-2.png"
+                            alt="photo author">
+                    </div>
+                    <div class="reviews-slider__photo-item">
+                        <img class="reviews-slider__photo-img" src="images/content/reviews-slider-photo-3.png"
+                            alt="photo author">
+                    </div>
+                    <div class="reviews-slider__photo-item">
+                        <img class="reviews-slider__photo-img" src="images/content/reviews-slider-photo-2.png"
+                            alt="photo author">
+                    </div>
+                </div>
+                <div class="reviews-slider__content">
+                    <div class="reviews-slider__content-item">
+                        <p class="reviews-slider__content-text">
+                            This is due to their exelent service, company
+                            pricing and customer support.it,s throughty
+                            refresing to get such a personal touch.
+                        </p>
+                        <div class="reviews-slider__content-author">
+                            Zahir Hasan
+                        </div>
+                        <div class="reviews-slider__content-number">01 / 07</div>
+                    </div>
+                    <div class="reviews-slider__content-item">
+                        <p class="reviews-slider__content-text">
+                            This is due to their exelent service, company
+                            pricing and customer support.it,s throughty
+                            refresing to get such a personal touch.
+                        </p>
+                        <div class="reviews-slider__content-author">
+                            Zahir Hasan
+                        </div>
+                        <div class="reviews-slider__content-number">02 / 07</div>
+                    </div>
+                    <div class="reviews-slider__content-item">
+                        <p class="reviews-slider__content-text">
+                            This is due to their exelent service, company
+                            pricing and customer support.it,s throughty
+                            refresing to get such a personal touch.
+                        </p>
+                        <div class="reviews-slider__content-author">
+                            Zahir Hasan
+                        </div>
+                        <div class="reviews-slider__content-number">03 / 07</div>
+                    </div>
+                    <div class="reviews-slider__content-item">
+                        <p class="reviews-slider__content-text">
+                            This is due to their exelent service, company
+                            pricing and customer support.it,s throughty
+                            refresing to get such a personal touch.
+                        </p>
+                        <div class="reviews-slider__content-author">
+                            Zahir Hasan
+                        </div>
+                        <div class="reviews-slider__content-number">04 / 07</div>
+                    </div>
+                    <div class="reviews-slider__content-item">
+                        <p class="reviews-slider__content-text">
+                            This is due to their exelent service, company
+                            pricing and customer support.it,s throughty
+                            refresing to get such a personal touch.
+                        </p>
+                        <div class="reviews-slider__content-author">
+                            Zahir Hasan
+                        </div>
+                        <div class="reviews-slider__content-number">05 / 07</div>
+                    </div>
+                    <div class="reviews-slider__content-item">
+                        <p class="reviews-slider__content-text">
+                            This is due to their exelent service, company
+                            pricing and customer support.it,s throughty
+                            refresing to get such a personal touch.
+                        </p>
+                        <div class="reviews-slider__content-author">
+                            Zahir Hasan
+                        </div>
+                        <div class="reviews-slider__content-number">06 / 07</div>
+                    </div>
+                    <div class="reviews-slider__content-item">
+                        <p class="reviews-slider__content-text">
+                            This is due to their exelent service, company
+                            pricing and customer support.it,s throughty
+                            refresing to get such a personal touch.
+                        </p>
+                        <div class="reviews-slider__content-author">
+                            Zahir Hasan
+                        </div>
+                        <div class="reviews-slider__content-number">07 / 07</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="blog" class="blog page-section">
+        <div class="container">
+            <h3 class="blog__title title">Latest Blog Posts</h3>
+            <p class="blog__text">Our company is latest at cleaning servicing company We can clean
+                your space including home.</p>
+            <div class="blog-item__inner">
+                <div class="blog-item__large">
+                    <div class="blog-item__imagebox">
+                        <img class="blog-item__large-image" src="images/content/blog-1.jpg" alt="images">
+                        <div class="blog-item__date">April 15, 2019</div>
+                    </div>
+                    <h4 class="blog-item__title">The Shore of this Uncharted</h4>
+                    <ul class="blog-item__infolist">
+                        <li class="blog-item__element">
+                            <a class="blog-item__element-link" href="#">
+                                <img class="blog-item__element-icon" src="images/user.svg" alt="user logo">
+                                <div class="blog-item__element-info">Admin</div>
+                            </a>
+                        </li>
+                        <li class="blog-item__element">
+                            <a class="blog-item__element-link" href="#">
+                                <img class="blog-item__element-icon" src="images/comment.svg" alt="comment logo">
+                                <div class="blog-item__element-info">25</div>
+                            </a>
+                        </li>
+                        <li class="blog-item__element">
+                            <span class="blog-item__element-link">
+                                <img class="blog-item__element-icon" src="images/heart.svg" alt="heard logo">
+                                <div class="blog-item__element-info">15</div>
+                            </span>
+                        </li>
+                    </ul>
+                    <p class="blog-item__text">A wonderful serenity has taken possession of my entire soul, like these
+                        sweet
+                        which I enjoy with my whole heart. I am alone, and feel.taken possession of
+                        my entire soul, like these sweet.</p>
+                    <a class="blog-item__link" href="#">Read more</a>
+                </div>
+                <div class="blog-item__small-box">
+                    <div class="blog-item__small">
+                        <div class="blog-item__imagebox">
+                            <img class="blog-item__small-image" src="images/content/blog-2.jpg" alt="images">
+                            <div class="blog-item__date">April 15, 2019</div>
+                        </div>
+                        <div class="blog-item__contentbox">
+                            <h4 class="blog-item__title">The Beat just Drum</h4>
+                            <ul class="blog-item__infolist">
+                                <li class="blog-item__element">
+                                    <a class="blog-item__element-link" href="#">
+                                        <img class="blog-item__element-icon" src="images/user.svg" alt="user logo">
+                                        <div class="blog-item__element-info">Admin</div>
+                                    </a>
+                                </li>
+                                <li class="blog-item__element">
+                                    <a class="blog-item__element-link" href="#">
+                                        <img class="blog-item__element-icon" src="images/comment.svg"
+                                            alt="comment logo">
+                                        <div class="blog-item__element-info">25</div>
+                                    </a>
+                                </li>
+                                <li class="blog-item__element">
+                                    <span class="blog-item__element-link">
+                                        <img class="blog-item__element-icon" src="images/heart.svg" alt="heard logo">
+                                        <div class="blog-item__element-info">15</div>
+                                    </span>
+                                </li>
+                            </ul>
+                            <p class="blog-item__text">A wonderful serenity has brokend
+                                which I enjoy with my whole my ti
+                                entire soul, like these sweet. We a
+                                Working Clealy and fress.</p>
+                            <a class="blog-item__link" href="#">Read more</a>
+                        </div>
+                    </div>
+                    <div class="blog-item__small">
+                        <div class="blog-item__imagebox">
+                            <img class="blog-item__small-image" src="images/content/blog-3.jpg" alt="images">
+                            <div class="blog-item__date">April 15, 2019</div>
+                        </div>
+                        <div class="blog-item__contentbox">
+                            <h4 class="blog-item__title">The Shore are Lady</h4>
+                            <ul class="blog-item__infolist">
+                                <li class="blog-item__element">
+                                    <a class="blog-item__element-link" href="#">
+                                        <img class="blog-item__element-icon" src="images/user.svg" alt="user logo">
+                                        <div class="blog-item__element-info">Admin</div>
+                                    </a>
+                                </li>
+                                <li class="blog-item__element">
+                                    <a class="blog-item__element-link" href="#">
+                                        <img class="blog-item__element-icon" src="images/comment.svg"
+                                            alt="comment logo">
+                                        <div class="blog-item__element-info">25</div>
+                                    </a>
+                                </li>
+                                <li class="blog-item__element">
+                                    <span class="blog-item__element-link">
+                                        <img class="blog-item__element-icon" src="images/heart.svg" alt="hearе logo">
+                                        <div class="blog-item__element-info">15</div>
+                                    </span>
+                                </li>
+                            </ul>
+                            <p class="blog-item__text">A wonderful serenity has brokend
+                                which I enjoy with my whole my ti
+                                entire soul, like these sweet. We a
+                                Working Clealy and fress.</p>
+                            <a class="blog-item__link" href="#">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="book page-section">
+        <div class="container">
+            <div class="book__inner">
+                <div class="book__content">
+                    <div class="book__box">
+                        <h6 class="book__suptitle suptitle-line">Book Service Today</h6>
+                        <h2 class="book__title title">Get a Free Quote</h2>
+                        <form class="book__form">
+                            <input class="book__form-input" type="text" required placeholder="Your Name">
+                            <input class="book__form-input" type="email" required placeholder="Email Address">
+                            <input class="book__form-input" type="phone" required placeholder="Phone Number">
+                            <button class="book__form-btn btn" type="submit">Submite Now</button>
+                        </form>
+                    </div>
+                    <div class="book__btn-box">
+                        <a class="book__btn btn" href="tel:17854524521">
+                            <svg class="book__tel-icon" xmlns="http://www.w3.org/2000/svg" width="59" height="59"
+                                viewBox="0 0 15 15">
+                                <path
+                                    d="M587.4,28.922a1.052,1.052,0,0,0-1.589,0c-0.371.368-.742,0.737-1.108,1.111a0.219,0.219,0,0,1-.306.056c-0.24-.131-0.5-0.237-0.727-0.381a11.521,11.521,0,0,1-2.778-2.528,6.618,6.618,0,0,1-1-1.595,0.229,0.229,0,0,1,.057-0.294c0.371-.359.733-0.727,1.1-1.1a1.055,1.055,0,0,0,0-1.626c-0.29-.293-0.58-0.58-0.871-0.874s-0.6-.6-0.9-0.9a1.057,1.057,0,0,0-1.588,0c-0.375.368-.734,0.746-1.115,1.108a1.814,1.814,0,0,0-.568,1.22,5.167,5.167,0,0,0,.4,2.226,13.527,13.527,0,0,0,2.4,4A14.856,14.856,0,0,0,583.73,33.2a7.135,7.135,0,0,0,2.725.793,2,2,0,0,0,1.714-.653c0.318-.356.677-0.68,1.014-1.021a1.061,1.061,0,0,0,.007-1.616Q588.3,29.81,587.4,28.922Zm-0.6-2.488,1.152-.2A5.171,5.171,0,0,0,583.587,22l-0.163,1.158A3.995,3.995,0,0,1,586.808,26.435Zm1.8-5.007A8.494,8.494,0,0,0,583.74,19l-0.163,1.158a7.409,7.409,0,0,1,6.271,6.077l1.152-.2A8.558,8.558,0,0,0,588.609,21.428Z"
+                                    transform="translate(-576 -19)" />
+                            </svg>
+                            <span>Call Us Today</span>
+                            1-785-452-4521
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="contact__list footer-contact__list">
+                    <div class="contact__item-box footer-contact__item-box">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="11" height="15" viewBox="0 0 11 15">
+                            <path id="Forma_1" data-name="Forma 1" class="cls-1"
+                                d="M255.74,23.733a4.447,4.447,0,0,0-.258-0.6A5.4,5.4,0,0,0,250.426,20,5.269,5.269,0,0,0,245,24.653v0.64c0,0.027.01,0.266,0.024,0.387,0.2,1.493,1.453,3.08,2.39,4.573,1.007,1.6,2.053,3.173,3.089,4.746,0.639-1.026,1.275-2.067,1.9-3.066,0.17-.293.367-0.587,0.538-0.867,0.113-.186.33-0.373,0.429-0.546,1.008-1.733,2.63-3.48,2.63-5.2V24.613A5.051,5.051,0,0,0,255.74,23.733Zm-5.27,3.213a1.952,1.952,0,0,1-1.869-1.253,1.649,1.649,0,0,1-.053-0.467V24.813a1.81,1.81,0,0,1,1.983-1.706,1.95,1.95,0,0,1,2.014,1.92A2,2,0,0,1,250.47,26.947Z"
+                                transform="translate(-245 -20)" />
+                        </svg>
+                        <div class="contact__item">
+                            333 Road Broken Street,88 New York
+                        </div>
+                    </div>
+                    <a class="contact__item-box footer-contact__item-box" href="tel:17854524521">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15">
+                            <path
+                                d="M587.4,28.922a1.052,1.052,0,0,0-1.589,0c-0.371.368-.742,0.737-1.108,1.111a0.219,0.219,0,0,1-.306.056c-0.24-.131-0.5-0.237-0.727-0.381a11.521,11.521,0,0,1-2.778-2.528,6.618,6.618,0,0,1-1-1.595,0.229,0.229,0,0,1,.057-0.294c0.371-.359.733-0.727,1.1-1.1a1.055,1.055,0,0,0,0-1.626c-0.29-.293-0.58-0.58-0.871-0.874s-0.6-.6-0.9-0.9a1.057,1.057,0,0,0-1.588,0c-0.375.368-.734,0.746-1.115,1.108a1.814,1.814,0,0,0-.568,1.22,5.167,5.167,0,0,0,.4,2.226,13.527,13.527,0,0,0,2.4,4A14.856,14.856,0,0,0,583.73,33.2a7.135,7.135,0,0,0,2.725.793,2,2,0,0,0,1.714-.653c0.318-.356.677-0.68,1.014-1.021a1.061,1.061,0,0,0,.007-1.616Q588.3,29.81,587.4,28.922Zm-0.6-2.488,1.152-.2A5.171,5.171,0,0,0,583.587,22l-0.163,1.158A3.995,3.995,0,0,1,586.808,26.435Zm1.8-5.007A8.494,8.494,0,0,0,583.74,19l-0.163,1.158a7.409,7.409,0,0,1,6.271,6.077l1.152-.2A8.558,8.558,0,0,0,588.609,21.428Z"
+                                transform="translate(-576 -19)" />
+                        </svg>
+                        <div class="contact__item">
+                            1-785-452-4521
+                        </div>
+                    </a>
+                    <div class="contact__item-box footer-contact__item-box">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14.876" height="14.875"
+                            viewBox="0 0 14.876 14.875">
+                            <path class="cls-1"
+                                d="M761,18.128a7.436,7.436,0,1,0,7.436,7.436A7.436,7.436,0,0,0,761,18.128Zm3.215,8.85h-3.152c-0.011,0-.021,0-0.031,0s-0.021,0-.032,0a0.514,0.514,0,0,1-.514-0.514v-5.25a0.515,0.515,0,0,1,1.029,0V25.95h2.7A0.514,0.514,0,0,1,764.219,26.978Z"
+                                transform="translate(-753.562 -18.125)" />
+                        </svg>
+                        <div class="contact__item">
+                            Mon - Sat 8.00am - 6.00pm
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-main">
+            <div class="container">
+                <div class="footer-middle">
+                    <div class="footer-middle__item">
+                        <h6 class="footer-middle__title">About Moura's</h6>
+                        <p class="footer-middle__text">A wonderful serenity has taken of entire
+                            soul, like these sweet spring his which his
+                            enjoy with my whole heart,like a these
+                            sweet spring. Bettar</p>
+                        <ul class="social__list footer-middle__social">
+                            <li class="social__item">
+                                <a class="social__link" href="#">
+                                    <svg class="social__icon" width="16" height="14" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 512 512">
+                                        <path
+                                            d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a class="social__link" href="#">
+                                    <svg class="social__icon" width="9" height="18" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 320 512">
+                                        <path
+                                            d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a class="social__link" href="#">
+                                    <svg class="social__icon" width="18" height="14" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 576 512">
+                                        <path
+                                            d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a class="social__link" href="#">
+                                    <svg class="social__icon" width="20" height="14" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 640 512">
+                                        <path
+                                            d="M386.061 228.496c1.834 9.692 3.143 19.384 3.143 31.956C389.204 370.205 315.599 448 204.8 448c-106.084 0-192-85.915-192-192s85.916-192 192-192c51.864 0 95.083 18.859 128.611 50.292l-52.126 50.03c-14.145-13.621-39.028-29.599-76.485-29.599-65.484 0-118.92 54.221-118.92 121.277 0 67.056 53.436 121.277 118.92 121.277 75.961 0 104.513-54.745 108.965-82.773H204.8v-66.009h181.261zm185.406 6.437V179.2h-56.001v55.733h-55.733v56.001h55.733v55.733h56.001v-55.733H627.2v-56.001h-55.733z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-middle__item">
+                        <h6 class="footer-middle__title">Quick Links</h6>
+                        <div class="footer-middle__list-inner">
+                            <ul class="footer-middle__list">
+                                <li><a href="#">Service</a></li>
+                                <li><a href="#">Request</a></li>
+                                <li><a href="#">Gallary</a></li>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Blog</a></li>
+                            </ul>
+                            <ul class="footer-middle__list">
+                                <li><a href="#">Careers</a></li>
+                                <li><a href="#">Private Policy</a></li>
+                                <li><a href="#">Locatiom</a></li>
+                                <li><a href="#">Exparts Tips</a></li>
+                                <li><a href="#">Terms & Condition</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-middle__item">
+                        <h6 class="footer-middle__title">Newsletter</h6>
+                        <p class="footer-middle__text">If you want receive our all weekly update
+                            about new offers discount alltime and we
+                            Sign bleow Here.</p>
+                        <form class="your-email">
+                            <input class="your-email__input" required type="email" placeholder="Enter Your Email">
+                            <button class="your-email__btn" type="submit">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <path
+                                        d="M440 6.5L24 246.4c-34.4 19.9-31.1 70.8 5.7 85.9L144 379.6V464c0 46.4 59.2 65.5 86.6 28.6l43.8-59.1 111.9 46.2c5.9 2.4 12.1 3.6 18.3 3.6 8.2 0 16.3-2.1 23.6-6.2 12.8-7.2 21.6-20 23.9-34.5l59.4-387.2c6.1-40.1-36.9-68.8-71.5-48.9zM192 464v-64.6l36.6 15.1L192 464zm212.6-28.7l-153.8-63.5L391 169.5c10.7-15.5-9.5-33.5-23.7-21.2L155.8 332.6 48 288 464 48l-59.4 387.3z">
+                                    </path>
+                                </svg>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <a class="logo" href="#">
+                        <img src="images/logo-white.png" alt="logo">
+                    </a>
+                    <p class="footer-bottom__copy">
+                        ©2019 House Cleaning Service All right reserved. Designed by Zahid Hasan
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <a class="page-up anchor-home" href="#home">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+            <path
+                d="M240.971 130.524l194.343 194.343c9.373 9.373 9.373 24.569 0 33.941l-22.667 22.667c-9.357 9.357-24.522 9.375-33.901.04L224 227.495 69.255 381.516c-9.379 9.335-24.544 9.317-33.901-.04l-22.667-22.667c-9.373-9.373-9.373-24.569 0-33.941L207.03 130.525c9.372-9.373 24.568-9.373 33.941-.001z">
+            </path>
+        </svg>
+    </a>
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>
