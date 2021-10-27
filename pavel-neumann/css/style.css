@@ -572,7 +572,7 @@ main {
 .like_container .block,
 .unlike_container .block {
     background-size: contain;
-    height: 95%;
+    height: 100%;
 }
 .like_container {
     background-image: url("../img/smile-bg.svg");
