@@ -304,7 +304,7 @@
         </div>
         <div class="log"><a href="https://ispace.lv"><img src="img/logo.png" alt="image"></a></div>
     </footer> 
-    <!-- <div style="position: fixed;
+    <div style="position: fixed;
     width: 100%;
     height: 100%;
     left: 50%;
@@ -316,7 +316,7 @@
             <h3>Для продолжения работы с сайтом поверните устройство горизонтально.</h3>
             <img style="display: flex; width: 40%" src="img/unnamed.png" alt="image">
         </div>
-    </div> -->
+    </div>
 </body>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
@@ -456,13 +456,14 @@
         $("#first-box").css('display', 'none');
         $("#fourth-box").fadeIn();
     });
-    // window.addEventListener("orientationchange", function () {
-    //     // Выводим числовое значение ориентации
-    //     $('body').css('zoom', '50%');
-    //     $('#notification-popup').css('display', 'none');
-    //     $('#notification-popup').css('background', 'transparent');
-    //     $('.popup-content').css('display', 'none');
-    // }, false);
+    window.addEventListener("orientationchange", function () {
+        // Выводим числовое значение ориентации
+        $('body').css('zoom', '50%');
+        $('#notification-popup').css('display', 'none');
+        $('#notification-popup').css('background', 'transparent');
+        $('.popup-content').css('display', 'none');
+        $(window).resize(function(){location.reload();});
+    }, false);
 </script>
 <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
 <!-- <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script> -->
