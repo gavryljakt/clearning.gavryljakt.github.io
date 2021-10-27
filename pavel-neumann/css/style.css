@@ -1464,6 +1464,9 @@ ul li {
         height: 45px;
         top: -45px;
     }
+    .like_unlike .block h2 img{
+        width: 25%;
+    }
 }
 
 /* @media (max-width: 1366px) {
