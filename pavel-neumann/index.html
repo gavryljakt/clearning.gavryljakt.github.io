@@ -19,8 +19,18 @@
     <!-- <link rel="stylesheet" href="css/swiper-bundle.min.css" /> -->
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.css">
-    <script>var scale = screen.width / siteWidth;
-        document.querySelector('meta[name="viewport"]').setAttribute('content', 'width=' + siteWidth + ', initial-scale=' + scale + '');
+    <script>
+        function getWidth() {
+            return Math.max(
+                document.body.scrollWidth,
+                document.documentElement.scrollWidth,
+                document.body.offsetWidth,
+                document.documentElement.offsetWidth,
+                document.documentElement.clientWidth
+            );
+        }
+        // var scale = screen.width / siteWidth;
+        document.querySelector('meta[name="viewport"]').setAttribute('content', 'width=' + getWidth() + ', initial-scale=' + scale + '');
     </script>
 </head>
 
@@ -235,7 +245,8 @@
                 <div class="unlike_container scroll-section-2">
                     <div class="block">
                         <div class="inf">
-                            <h2>Мои <span><img class="persevering_face" src="img/persevering_face.png" alt="image"></span>
+                            <h2>Мои <span><img class="persevering_face" src="img/persevering_face.png"
+                                        alt="image"></span>
                                 <br>слабости
                             </h2>
                             <ul>
@@ -268,7 +279,7 @@
                     <h2>Заключение &#128075;</h2>
                     <p>Если я тебе близок как человек, есть желание встретиться и пообщаться ты можешь написать мне тут:
                     </p>
-                    <button class="write"><img src="img/facebook.png" alt="image">Написать</button>
+                    <a class="write" href="#"><img src="img/facebook.png" alt="image">Написать</a>
                     <p>В случае если тебе не понравился Павел, тогда нажми закрыть и продолжай искать свое счастье
                         &#127774;</p>
                 </div>
@@ -383,7 +394,7 @@
             $.scrollify({
                 section: ".scroll-section",
                 interstitialSection: "",
-                // easing: "easeOutExpo",
+                easing: "easeOutExpo",
                 scrollSpeed: 1000,
                 offset: 0,
                 scrollbars: false,
