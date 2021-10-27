@@ -73,9 +73,9 @@
                 <li><a onclick="toggle()" class="menu__item" href="#ps">P.s.
                         <hr>
                     </a></li>
-                <p class="menu_soc">
-                    Мои соцсети:<a href="#"><img src="img/facebook.png" alt="image"></a>
-                </p>
+                <div class="menu_soc">
+                    <p>Мои соцсети:</p><a href="#"><img src="img/facebook.png" alt="image"></a>
+                </div>
             </ul>
         </div>
         <div class="box_1 scroll-section" id="header">
@@ -350,7 +350,7 @@
 
     function onScroll(event) {
         var scrollPos = $(document).scrollTop();
-        $('.menu__box a').each(function () {
+        $('.menu__box li a').each(function () {
             var currLink = $(this);
             var refElement = $(currLink.attr("href"));
             if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
@@ -389,7 +389,7 @@
 <script>
 
     // scroll
-    if ($(window).width() > 414) {
+    if ($(window).width() > 375) {
         $(document).ready(function () {
             $.scrollify({
                 section: ".scroll-section",
