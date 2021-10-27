@@ -534,7 +534,7 @@ main {
 }
 .like__box {
     display: flex;
-    height: 50vh;
+    height: 47vh;
     justify-content: center;
 }
 
@@ -618,7 +618,7 @@ main {
 
 .photos {
     display: flex;
-    height: 50vh;
+    height: 53vh;
 }
 
 .photos a {
