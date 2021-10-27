@@ -22,14 +22,14 @@
     <script>
         function getWidth() {
             return Math.max(
-                document.body.scrollWidth,
+                // document.body.scrollWidth,
                 document.documentElement.scrollWidth,
-                document.body.offsetWidth,
+                // document.body.offsetWidth,
                 document.documentElement.offsetWidth,
                 document.documentElement.clientWidth
             );
         }
-        // var scale = screen.width / siteWidth;
+        var scale = screen.width / getWidth();
         document.querySelector('meta[name="viewport"]').setAttribute('content', 'width=' + getWidth() + ', initial-scale=' + scale + '');
     </script>
 </head>
