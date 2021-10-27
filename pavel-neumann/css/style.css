@@ -984,7 +984,7 @@ ul li {
     margin-top: 8vh !important;
 } */
 /* MEDIA start */
-@media (max-width: 1800px) {
+@media (max-width: 1500px) {
     .box_2 .container h2,
     .box_3 .container h2,
     .box_4 .container h2,
@@ -992,12 +992,12 @@ ul li {
     .box_5 .container h2,
     .box_6 .container h2,
     .box_7 .container h2 {
-        font-size: 32px;
+        font-size: 40px;
     }
 }
 @media (max-width: 1366px) {
     .name_container .name {
-        font-size: 50px;
+        font-size: 32px;
     }
     .name_container .name::after {
         right: auto;
