@@ -10,6 +10,7 @@ body {
     min-width: 375px;
     overflow-x: hidden;
     font-family: "Montserrat", sans-serif;
+    background-color: #1a1a1a;
 }
 a {
     text-decoration: none;
@@ -33,6 +34,8 @@ p {
 }
 main {
     width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
 }
 .box_1 {
     display: flex;
@@ -607,6 +610,7 @@ main {
     object-fit: cover;
     object-position: top;
 }
+
 .slick-dots {
     position: absolute;
     right: 0;
@@ -1276,8 +1280,26 @@ ul li {
     }
 }
 
+@media (min-width: 2000px) {
+    .image-bg,
+    .img_2,
+    .img_3,
+    .img_5,
+    .img_6,
+    .img_4 {
+        width: 50%;
+        object-fit: cover;
+    }
+    .img_7 {
+        width: 60%;
+        object-fit: cover;
+    }
+    .img_2,
+    .img_3 {
+        object-position: right;
+    }
+}
 /* media height */
-
 @media (max-height: 768px) {
     .menu__item {
         padding: 4px 15px;
