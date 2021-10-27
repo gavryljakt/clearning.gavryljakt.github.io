@@ -1466,6 +1466,9 @@ ul li {
     .like_unlike .block h2 img {
         width: 25%;
     }
+    .scroll-section{
+        height: 80vh !important;
+    }
 }
 
 /* @media (max-width: 1366px) {
