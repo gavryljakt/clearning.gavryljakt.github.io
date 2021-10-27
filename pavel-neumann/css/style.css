@@ -1467,7 +1467,8 @@ ul li {
         width: 25%;
     }
     .scroll-section{
-        height: 80vh !important;
+        height: 75vh !important;
+        overflow: hidden;
     }
 }
 
