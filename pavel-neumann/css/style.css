@@ -1270,6 +1270,7 @@ ul li {
     .like2.like_unlike .block .inf {
         max-width: 220px;
     }
+
 }
 @media (max-width: 540px) {
     .scroll-text {
@@ -1367,6 +1368,15 @@ ul li {
 @media (max-height: 550px) {
     .menu__item {
         padding: 4px 15px;
+    }
+    .image-bg,
+    .img_2,
+    .img_3,
+    .img_5,
+    .img_6,
+    .img_4 {
+        width: auto;
+        object-fit: contain;
     }
 }
 @media (max-height: 414px) {
@@ -1466,7 +1476,7 @@ ul li {
     .like_unlike .block h2 img {
         width: 25%;
     }
-    .scroll-section{
+    .scroll-section {
         /* height: 75vh !important;
         overflow: hidden; */
     }
