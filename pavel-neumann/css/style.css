@@ -1090,25 +1090,7 @@ ul li {
         /* width: 70%; */
         text-align: left;
     }
-    .box_2 .container p,
-    .box_7 .container p,
-    .box_6 .container p {
-        /* margin-top: 24px; */
-        /* font-size: 16px; */
-        /* width: 70%; */
-    }
-    .box_3 .container ul,
-    .box_4 .container ul,
-    .box_5 .container ul {
-        /* width: 70%; */
-    }
-    .box_3 .container li,
-    .box_4 .container li,
-    .box_5 .container li,
-    .like_unlike .block ul {
-        /* font-size: 16px;
-        line-height: 21px; */
-    }
+  
     .box_3 .container li:first-child,
     .box_4 .container li:first-child,
     .box_5 .container li:first-child {
@@ -1141,6 +1123,38 @@ ul li {
     .img_2,
     .img_3 {
         object-position: right;
+    }
+    .box_2 .container p{
+        width: 70%; 
+    }
+    .box_2 .container p,
+    .box_7 .container p,
+    .box_6 .container p {
+        margin-top: 24px; 
+        font-size: 16px;
+    }
+    .box_3 .container ul,
+    .box_4 .container ul,
+    .box_5 .container ul {
+         width: 70%; 
+    }
+    .box_3 .container li,
+    .box_4 .container li,
+    .box_5 .container li,
+    .like_unlike .block ul {
+        font-size: 16px;
+        line-height: 21px; 
+    }
+    .box_2 .container h2,
+    .box_3 .container h2,
+    .box_4 .container h2,
+    .like_unlike .block h2,
+    .box_5 .container h2,
+    .box_6 .container h2,
+    .box_7 .container h2 {
+        font-size: 30px;
+        width: 70%;
+        text-align: left;
     }
 }
 @media (max-width: 968px) {
