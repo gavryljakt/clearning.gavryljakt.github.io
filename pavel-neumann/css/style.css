@@ -166,6 +166,7 @@ main {
     right: -185px;
     top: 0;
 }
+
 .navigation {
     display: flex;
     margin-bottom: 3%;
@@ -358,7 +359,6 @@ main {
     margin-top: 20px;
     animation: btnDown 1s infinite ease;
 }
-
 /*Hamburger-Menu-End*/
 
 @media only screen and (min-width: 1401px) {
@@ -539,7 +539,6 @@ main {
     margin-top: auto;
     margin-bottom: auto;
 }
-
 
 .like2 .like__box {
     height: 100vh;
@@ -940,6 +939,18 @@ ul li {
     flex-wrap: wrap;
     position: relative;
     max-width: 487px;
+    padding-bottom: 50px;
+}
+.next_arrow {
+   
+    position: absolute;
+    bottom: -24px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.next_arrow img{
+    width: 30px;
+    height: 30px;
 }
 .news-box a {
     font-weight: 700;
@@ -1087,7 +1098,15 @@ ul li {
     .box_5 .container li:first-child {
         margin-top: 24px;
     }
-  
+    .menu__item__arr.image {
+        margin-top: -10px !important;
+    }
+    .news-box{
+        padding-bottom: 30px;
+    }
+    .next_arrow{
+        bottom: -40px;
+    }
 }
 @media (max-width: 1200px) {
     .image-bg,
@@ -1165,9 +1184,9 @@ ul li {
         width: 42px;
         height: 42px;
     }
-    #next_block {
+    /* #next_block {
         transform: scale(0.65);
-    }
+    } */
     .box_2 .container h2,
     .box_3 .container h2,
     .box_4 .container h2,
@@ -1274,7 +1293,6 @@ ul li {
     .like2.like_unlike .block .inf {
         max-width: 220px;
     }
-
 }
 @media (max-width: 540px) {
     .scroll-text {
