@@ -613,7 +613,9 @@ main {
     line-height: 29px;
     padding: 0;
 }
-
+.like2.like_unlike .block .inf{
+    min-height: 300px;
+}
 /*like_unlike*/
 
 /*Photos-Start*/
@@ -1063,6 +1065,10 @@ ul li {
     /* .box_3 .container h2{
         white-space: nowrap;
     } */
+   .like1.like_unlike .block ul{
+       font-size: 16px;
+       line-height: 26px;
+   }
     .box_2 .container h2,
     .box_3 .container h2,
     .box_4 .container h2,
